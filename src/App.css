@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-content h6{
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    
+}
+.main-content h6 a{
+    color: lightblue;
+    text-decoration: none;
+}
+.main-content h6 a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.all-content{
+    background-color: #F5D2BE;
+    width: auto;
+}
+p{
+    width: 500px;
+    margin-left: 30px;
+}
+.head{
+    margin: 30px 0 0px 30px;
+}
+h1{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.classss a{
+    color: #DC41EB;
+    text-decoration: none;
+}
+.area img{
+    margin-left: 40px;
+}
+.over{
+    background-color: #F3F5F5;
+    margin-top: 20px;
+}
+.con{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.over h2{
+    width: 600px;
+    padding: 60px 0 0px 0;
+
+}
+.img{
+    margin-left: 160px;
+    padding: 60px;
+}
+.over p{
+    width: 600px;
+    right: 30rem;
+    padding-top: 30px;
+}
+.next{
+    margin-top: 70px;
+    align-items: center;
+    align-content: center;
+}
+.next1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.next1 h2{
+    width: 600px;
+    margin-left: 30px;
+}
+.next1 p{
+    width: 500px;
+    margin-top: 20px;
+}
+.next2{
+    margin-left: 100px;
+}
+.next21{
+    margin-left: 150px;
+}
+.next21 h2{
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.next21 p{
+    width: 500px;
+}
+.next21 a{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: lightpink;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.coloumn ul{
+    list-style: none;
+}
+.area{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.company img{
+    margin-left: 20px;
+}
+.area span{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.add a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.para p{
+    width: 100%;
+    margin: 20px;
+    margin-left: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-menu li a{
+    color: black;
 }
